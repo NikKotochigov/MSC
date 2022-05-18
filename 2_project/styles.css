@@ -1,0 +1,20 @@
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.header {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+h2 {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
