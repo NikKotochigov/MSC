@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #E5E000;
+}
+
+.header_item{
+    color: white;
+    margin-left: 20px;
+}
+
+.main_image{
+    display: flex;
+    width: 1424px;
+    height: 540px;
+    background-image: url(images/drico.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    background-color: #E5E000;
+}
+
+.links_item{
+    color: white;
+    margin-left: 20px;
+}
+
+.lending{
+    margin-left: 20px;
+}
+
+.lending_item{
+    margin-bottom: 30px
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #E5E000;
+    justify-content: space-between;
+}
+
+.footer_first{
+    margin-left: 20px;
+}
+
+.footer_last{
+    font-size:large;
+    margin-right: 20px;
+    color: white;
+}
