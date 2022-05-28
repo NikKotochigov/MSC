@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+#header-left {
+    color: red;
+    margin-left: 30px;
+    font-size: 200%;
+}
+
+.link-items {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    height: 100%;
+}
+
+.link-item {
+    color: red;
+    margin-left: 30px;
+    font-size: 200%;
+}
+
+.evian-image {
+    background-image: url(images/evian.svg);
+    background-size: cover;
+    width: 1440;
+    height: 650px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.evian-text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 400%;
+    color: red;
+}
+
+.water-box-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.water-box-bottom{
+    display: flex;
+}
+
+.water-box {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 100px;
+    border: solid;
+    border-color: pink;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.evian-photos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.evian-photo {
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    text-align: center; 
+}
+
+.evian-discription{
+    list-style: none;
+}
+
+.water-box-picture{
+    margin-right: 50px;
+}
+
+.footer{
+    font-size: 200%;
+   
+}
+
+.footer{
+    background-color: #F8BFC7;
+    height: 120px;
+    display: flex;
+    align-items: center
+ }   
+
+ .footer p {
+    color: white;
+    margin-left: 30px;
+}   
