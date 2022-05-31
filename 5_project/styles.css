@@ -39,11 +39,12 @@
 
 .evian-image {
     background-image: url(images/evian.svg);
-    background-size: cover;
-    width: 1440;
-    height: 650px;
+    background-size: contain;
+    width: 1440px;
+    height: 950px;
     position: relative;
     margin-bottom: 20px;
+    border: 1px solid black;
 }
 
 .evian-text {
@@ -55,6 +56,19 @@
     color: red;
 }
 
+.water-box-container {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.water-box {
+    margin-bottom: 100px;
+    border: solid;
+    border-color: pink;
+    border-radius: 15px;
+    padding: 15px;
+}
+
 .water-box-top{
     display: flex;
     flex-direction: column;
@@ -64,19 +78,9 @@
     display: flex;
 }
 
-.water-box {
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 100px;
-    border: solid;
-    border-color: pink;
-    border-radius: 15px;
-    padding: 15px;
-}
-
 .evian-photos {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 50px;
 }
 
