@@ -38,13 +38,12 @@
 }
 
 .evian-image {
-    background-image: url(images/evian.svg);
+    background-image: url(images/evian_png.jpeg);
     background-size: contain;
     width: 1440px;
     height: 950px;
     position: relative;
-    margin-bottom: 20px;
-    border: 1px solid black;
+    margin-bottom: 30px;
 }
 
 .evian-text {
